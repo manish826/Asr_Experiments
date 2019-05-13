@@ -44,7 +44,21 @@ Experiment_10 parameters:
 
 mtlalpha = 0.1   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = dot
 
+Experiment_11 parameters:
 
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = lstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = add
+
+Experiment_12 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = lstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = location
+
+Experiment_13 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = lstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = coverage
+
+Experiment_14 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = lstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = coverage_location
 
 2.Experiments on Timit Dataset
 
