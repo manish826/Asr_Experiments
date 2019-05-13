@@ -1,0 +1,96 @@
+1.Experiments on an4 dataset
+
+Experiment_1 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = lstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = dot
+
+
+Experiment_2 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.4   epochs=50   number of gpu = 1  encodertype = lstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = dot
+
+
+Experiment_3 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 4    stage = -1    backend =  pytorch   attention type = dot
+
+
+Experiment_4 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.4   epochs=20   number of gpu = 1  encodertype = lstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = dot
+
+
+Experiment_5 parameters:
+
+mtlalpha = 0.2   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = dot
+
+Experiment_6 parameters:
+
+mtlalpha = 0.3   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = dot
+
+Experiment_7 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstm   encode layers = 1    stage = -1    backend =  pytorch   attention type = dot
+
+Experiment_8 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstm   encode layers = 3    stage = -1    backend =  pytorch   attention type = dot
+
+Experiment_9 parameters:
+
+mtlalpha = 0.3   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  chainer   attention type = dot
+
+Experiment_10 parameters:
+
+mtlalpha = 0.1   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  pytorch   attention type = dot
+
+
+
+2.Experiments on Timit Dataset
+
+Timit_Experiment_1 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  pytroch   attention type = dot
+
+
+Timit_Experiment_2 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  pytroch   attention type = add
+
+
+Timit_Experiment_3 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  chainer   attention type = dot
+
+
+Timit_Experiment_4 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  chainer   attention type = coverage
+
+
+Timit_Experiment_5 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  chainer   attention type = coverage_location
+
+
+Timit_Experiment_6 parameters:
+
+mtlalpha = 0.4   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  chainer   attention type = location2d
+
+
+Timit_Experiment_7 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  chainer   attention type = location
+
+
+Timit_Experiment_8 parameters:
+
+mtlalpha = 0.5   ctc_weight=0.3   epochs=20   number of gpu = 1  encodertype = blstmp   encode layers = 3    stage = -1    backend =  chainer   attention type = noatt
+
+
+
+
+
+
+
+
